@@ -109,7 +109,7 @@ InterviewIQ/
 
 <h3>1. Clone Repository</h3>
 <pre>
-git clone https://github.com/your-username/interviewiq-ai.git
+git clone https://github.com/dhruvsharmads0506/InterviewIQ.AI.git
 cd interviewiq-ai
 </pre>
 
