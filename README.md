@@ -90,11 +90,20 @@ It provides role-based interviews, dynamic follow-up questions, and detailed per
 InterviewIQ/
 │
 ├── client/        # Frontend (React + Vite)
+│   ├── src/
+│   ├── public/
+│   └── ...
+│
 ├── server/        # Backend (Node + Express)
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   └── ...
+│
 └── README.md
 </pre>
-
-<hr>
 
 <h2>⚙️ Installation & Setup</h2>
 
@@ -152,5 +161,5 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 
 <hr>
 
-<h2 align="center">💡 Built with Passion by Dhruv</h2>
+<h2 align="center">💡 Built with Passion by Dhruv Sharma</h2>
 <p align="center">⭐ Don't forget to star the repo if you like it!</p>
