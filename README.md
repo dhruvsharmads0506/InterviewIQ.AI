@@ -142,7 +142,7 @@ C -->|JSON Response| B
 B -->|UI Rendering| A
 
 <p align="center">
-  <img src="assets/Screenshot 2026-03-20 010143.png" width="90%" />
+  <img src="assets/mermaid-diagram (1).png" width="90%" />
 </p>
 <!-- PROJECT STRUCTURE -->
 <h2>📂 Project Structure</h2>
