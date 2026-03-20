@@ -5,161 +5,221 @@
 Practice interviews with AI intelligence, adaptive questioning, and real-time performance evaluation.
 </p>
 
+<br/>
+
+<!-- LIVE DEMO -->
+<h2 align="center">🚀 Live Demo</h2>
+
 <p align="center">
-  🔗 <b>Live Demo:</b> 
+Experience <b>InterviewIQ.AI</b> in action — practice AI-powered mock interviews.
+</p>
+
+<p align="center">
   <a href="https://interviewiq-ai-x3i2.onrender.com/" target="_blank">
-    https://interviewiq-ai-x3i2.onrender.com/
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-blue?style=for-the-badge&logo=google-chrome" />
   </a>
 </p>
 
-<hr>
+<br/>
 
+<p align="center">
+  ✅ Authentication &nbsp; • &nbsp;
+  🤖 AI Interviews &nbsp; • &nbsp;
+  📊 Dashboard &nbsp; • &nbsp;
+  💳 Payments
+</p>
+
+<hr/>
+
+<!-- PREVIEW -->
 <h2>📸 Project Preview</h2>
 
 <p align="center">
-  <img src="assets/Screenshot 2026-03-20 010143.png" alt="InterviewIQ Preview" width="90%" />
+  <img src="assets/Screenshot 2026-03-20 010143.png" width="90%" />
 </p>
 
 <p align="center"><i>Practice Interviews with AI Intelligence</i></p>
 
-<hr>
+<hr/>
 
+<!-- OVERVIEW -->
 <h2>📌 Overview</h2>
+
 <p>
-InterviewIQ.AI is an advanced AI-driven mock interview platform designed to simulate real interview environments.
-It provides role-based interviews, dynamic follow-up questions, and detailed performance analytics to help users improve their interview skills.
+InterviewIQ.AI is an AI-driven mock interview platform that simulates real interview environments. 
+It provides role-based interviews, dynamic follow-up questions, and performance analytics to help users improve their skills.
 </p>
 
-<hr>
+<hr/>
 
+<!-- FEATURES -->
 <h2>✨ Features</h2>
 
 <ul>
-  <li>🤖 <b>AI-Powered Interview System</b></li>
-  <li>🎯 Role-based interview customization</li>
-  <li>🧠 Smart follow-up questions based on responses</li>
-  <li>⏱️ Timer-based real interview simulation</li>
-  <li>📊 Performance analytics and tracking</li>
-  <li>📄 Downloadable PDF reports</li>
-  <li>🎤 Voice-based interview system</li>
-  <li>💳 Credits-based premium sessions</li>
+  <li>🤖 AI-Powered Interview System</li>
+  <li>🎯 Role-based customization</li>
+  <li>🧠 Smart follow-up questions</li>
+  <li>⏱️ Timer-based simulation</li>
+  <li>📊 Performance analytics</li>
+  <li>📄 PDF reports</li>
+  <li>🎤 Voice-based interviews</li>
+  <li>💳 Premium sessions</li>
 </ul>
 
-<hr>
+<hr/>
 
+<!-- HOW IT WORKS -->
 <h2>🧩 How It Works</h2>
 
-<h3>STEP 1: Role & Experience Selection</h3>
-<p>Select your desired job role and experience level. AI adjusts the difficulty accordingly.</p>
+<h3>1. Role Selection</h3>
+<p>Select job role and experience level.</p>
 
-<h3>STEP 2: Smart Voice Interview</h3>
-<p>AI asks dynamic questions and generates follow-ups based on your answers.</p>
+<h3>2. AI Interview</h3>
+<p>AI generates dynamic questions and follow-ups.</p>
 
-<h3>STEP 3: Timer-Based Simulation</h3>
-<p>Experience real interview pressure with time tracking.</p>
+<h3>3. Real Simulation</h3>
+<p>Timer-based interview experience.</p>
 
-<hr>
+<hr/>
 
-<h2>🧠 Advanced AI Capabilities</h2>
+<!-- AI CAPABILITIES -->
+<h2>🧠 AI Capabilities</h2>
 
 <ul>
-  <li><b>AI Answer Evaluation:</b> Scores communication, technical accuracy, and confidence.</li>
-  <li><b>Resume-Based Interview:</b> Generates questions based on uploaded resume.</li>
-  <li><b>Confidence Detection:</b> Basic tone and voice analysis.</li>
-  <li><b>History & Analytics:</b> Track performance with graphs and insights.</li>
+  <li><b>Answer Evaluation:</b> Communication & accuracy scoring</li>
+  <li><b>Resume-based Questions</b></li>
+  <li><b>Confidence Detection</b></li>
+  <li><b>Analytics Tracking</b></li>
 </ul>
 
-<hr>
+<hr/>
 
+<!-- TECH STACK -->
 <h2>🛠️ Tech Stack</h2>
 
 <ul>
   <li><b>Frontend:</b> React (Vite)</li>
-  <li><b>Backend:</b> Node.js, Express.js</li>
+  <li><b>Backend:</b> Node.js, Express</li>
   <li><b>Database:</b> MongoDB</li>
-  <li><b>Authentication:</b> JWT & Cookies</li>
-  <li><b>AI Integration:</b> OpenAI / AI APIs</li>
-  <li><b>Payment Integration:</b> Razorpay / Cashfree</li>
+  <li><b>Auth:</b> JWT + Cookies</li>
+  <li><b>AI:</b> OpenAI APIs</li>
+  <li><b>Payments:</b> Razorpay / Cashfree</li>
 </ul>
 
-<hr>
+<hr/>
 
+flowchart LR
+
+%% ================= USER =================
+A[👤 User Browser]
+
+%% ================= FRONTEND =================
+A --> B[⚛️ Frontend (React + Vite)]
+
+%% ================= BACKEND =================
+B -->|REST API| C[🟢 Backend (Node.js + Express)]
+
+%% ================= SERVICES =================
+C --> D[🔐 Auth Service (JWT + Cookies)]
+C --> E[🧠 Interview Engine]
+C --> F[💳 Payment Service]
+
+%% ================= AI =================
+E --> G[🤖 OpenAI API]
+
+%% ================= PAYMENT =================
+F --> H[🏦 Payment Gateway (Razorpay / Cashfree)]
+
+%% ================= DATABASE =================
+C --> I[(🗄️ MongoDB)]
+
+%% ================= DATA FLOW =================
+I -->|User Data| C
+I -->|Interview Data| C
+I -->|Payment Data| C
+
+%% ================= RESPONSE =================
+C -->|JSON Response| B
+B -->|Rendered UI| A
+<!-- PROJECT STRUCTURE -->
 <h2>📂 Project Structure</h2>
 
 <pre>
 InterviewIQ/
 │
-├── client/        # Frontend (React + Vite)
+├── client/                  # Frontend (React + Vite)
 │   ├── src/
 │   ├── public/
 │   └── ...
 │
-├── server/        # Backend (Node + Express)
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
+├── server/                  # Backend (Node.js + Express)
+│   ├── config/              # Database & environment setup
+│   ├── controllers/         # Business logic
+│   ├── models/              # MongoDB schemas
+│   ├── routes/              # API routes
+│   ├── services/            # External integrations (AI, Payments)
 │   └── ...
 │
 └── README.md
 </pre>
 
-<h2>⚙️ Installation & Setup</h2>
+<!-- SETUP -->
+<h2>⚙️ Installation</h2>
 
-<h3>1. Clone Repository</h3>
 <pre>
 git clone https://github.com/dhruvsharmads0506/InterviewIQ.AI.git
 cd interviewiq-ai
 </pre>
 
-<h3>2. Setup Client</h3>
+<h3>Client</h3>
 <pre>
 cd client
 npm install
 npm run dev
 </pre>
 
-<h3>3. Setup Server</h3>
+<h3>Server</h3>
 <pre>
 cd server
 npm install
 npm run dev
 </pre>
 
-<h3>4. Environment Variables</h3>
+<h3>Environment Variables</h3>
 
 <pre>
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
-OPENAI_API_KEY=your_api_key
-RAZORPAY_KEY=your_key
+MONGO_URI=
+JWT_SECRET=
+OPENAI_API_KEY=
+RAZORPAY_KEY=
 </pre>
 
-<hr>
+<hr/>
 
+<!-- FUTURE -->
 <h2>🚀 Future Improvements</h2>
 
 <ul>
-  <li>📹 Video-based interview system</li>
-  <li>🧠 More advanced AI scoring</li>
-  <li>🌐 Multi-language support</li>
-  <li>📱 Mobile app version</li>
+  <li>📹 Video interviews</li>
+  <li>🌐 Multi-language</li>
+  <li>📱 Mobile app</li>
 </ul>
 
-<hr>
+<hr/>
 
+<!-- CONTRIBUTION -->
 <h2>🤝 Contributing</h2>
-<p>
-Contributions are welcome! Feel free to fork this repository and submit a pull request.
-</p>
 
-<hr>
+<p>Fork and create a pull request.</p>
 
+<hr/>
+
+<!-- LICENSE -->
 <h2>📜 License</h2>
-<p>This project is licensed under the MIT License.</p>
 
-<hr>
+<p>MIT License</p>
 
-<h2 align="center">💡 Built with Passion by Dhruv Sharma</h2>
-<p align="center">⭐ Don't forget to star the repo if you like it!</p>
+<hr/>
+
+<h3 align="center">💡 Built by Dhruv Sharma</h3>
+<p align="center">⭐ Star this repo if you like it!</p>
