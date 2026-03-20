@@ -97,12 +97,14 @@ It provides role-based interviews, dynamic follow-up questions, and performance 
 <!-- TECH STACK -->
 <h2>🛠️ Tech Stack</h2>
 
+<h2>🛠️ Tech Stack</h2>
+
 <ul>
   <li><b>Frontend:</b> React (Vite)</li>
   <li><b>Backend:</b> Node.js, Express</li>
   <li><b>Database:</b> MongoDB</li>
   <li><b>Auth:</b> JWT + Cookies</li>
-  <li><b>AI:</b> OpenAI APIs</li>
+  <li><b>AI:</b> OpenRouter (Multi-Model AI Gateway)</li>
   <li><b>Payments:</b> Razorpay / Cashfree</li>
 </ul>
 
@@ -110,36 +112,6 @@ It provides role-based interviews, dynamic follow-up questions, and performance 
 
 
 <h2>⚙️ System Architecture Flowchart</h2>
-
-%% ================= USER =================
-A[👤 User]
-
-%% ================= FRONTEND =================
-A --> B[⚛️ Frontend<br/>(React + Vite)]
-
-%% ================= BACKEND =================
-B -->|API Requests| C[🟢 Backend Server<br/>(Node.js + Express)]
-
-%% ================= CORE SERVICES =================
-C --> D[🔐 Authentication Service<br/>(JWT + Cookies)]
-C --> E[🧠 Interview Engine]
-C --> F[💳 Payment Service]
-
-%% ================= EXTERNAL SERVICES =================
-E --> G[🤖 OpenAI API]
-F --> H[🏦 Payment Gateway<br/>(Razorpay / Cashfree)]
-
-%% ================= DATABASE =================
-C --> I[(🗄️ MongoDB Database)]
-
-%% ================= DATA HANDLING =================
-I -->|User Data| C
-I -->|Interview Data| C
-I -->|Payment Records| C
-
-%% ================= RESPONSE FLOW =================
-C -->|JSON Response| B
-B -->|UI Rendering| A
 
 <p align="center">
   <img src="assets/mermaid-diagram (1).png" width="90%" />
@@ -193,7 +165,7 @@ npm run dev
 <pre>
 MONGO_URI=
 JWT_SECRET=
-OPENAI_API_KEY=
+OPENROUTER_API_KEY=
 RAZORPAY_KEY=
 </pre>
 
