@@ -114,7 +114,7 @@ It provides role-based interviews, dynamic follow-up questions, and performance 
 <h2>⚙️ System Architecture Flowchart</h2>
 
 <p align="center">
-  <img src="assets/mermaid-diagram (1).png" width="90%" />
+  <img src="assets/mermaid-diagram (2).png" width="90%" />
 </p>
 <!-- PROJECT STRUCTURE -->
 <h2>📂 Project Structure</h2>
