@@ -108,39 +108,42 @@ It provides role-based interviews, dynamic follow-up questions, and performance 
 
 <hr/>
 
-flowchart LR
+
+<h2>⚙️ System Architecture Flowchart</h2>
 
 %% ================= USER =================
-A[👤 User Browser]
+A[👤 User]
 
 %% ================= FRONTEND =================
-A --> B[⚛️ Frontend (React + Vite)]
+A --> B[⚛️ Frontend<br/>(React + Vite)]
 
 %% ================= BACKEND =================
-B -->|REST API| C[🟢 Backend (Node.js + Express)]
+B -->|API Requests| C[🟢 Backend Server<br/>(Node.js + Express)]
 
-%% ================= SERVICES =================
-C --> D[🔐 Auth Service (JWT + Cookies)]
+%% ================= CORE SERVICES =================
+C --> D[🔐 Authentication Service<br/>(JWT + Cookies)]
 C --> E[🧠 Interview Engine]
 C --> F[💳 Payment Service]
 
-%% ================= AI =================
+%% ================= EXTERNAL SERVICES =================
 E --> G[🤖 OpenAI API]
-
-%% ================= PAYMENT =================
-F --> H[🏦 Payment Gateway (Razorpay / Cashfree)]
+F --> H[🏦 Payment Gateway<br/>(Razorpay / Cashfree)]
 
 %% ================= DATABASE =================
-C --> I[(🗄️ MongoDB)]
+C --> I[(🗄️ MongoDB Database)]
 
-%% ================= DATA FLOW =================
+%% ================= DATA HANDLING =================
 I -->|User Data| C
 I -->|Interview Data| C
-I -->|Payment Data| C
+I -->|Payment Records| C
 
-%% ================= RESPONSE =================
+%% ================= RESPONSE FLOW =================
 C -->|JSON Response| B
-B -->|Rendered UI| A
+B -->|UI Rendering| A
+
+<p align="center">
+  <img src="assets/Screenshot 2026-03-20 010143.png" width="90%" />
+</p>
 <!-- PROJECT STRUCTURE -->
 <h2>📂 Project Structure</h2>
 
